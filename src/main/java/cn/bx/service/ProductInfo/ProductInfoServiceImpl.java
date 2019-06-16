@@ -28,10 +28,7 @@ public class ProductInfoServiceImpl implements ProductInfoService{
 
     @Override
     public List<ProductInfo> findStatusAll() {
-
-        log.info("ProductInfoServiceImpl-getProductStatus方法执行");
-        productInfoMapper.selectByMap(CommonMap.getProductMap("product_status",ProductStatusEnum.UP.getCode()));
-
-        return null;
+        log.info("ProductInfoServiceImpl-findStatusAll方法执行");
+        return productInfoMapper.selectByMap(CommonMap.getProductMap("product_status",ProductStatusEnum.UP.getCode()));
     }
 }

@@ -1,13 +1,10 @@
 package cn.bx.dao;
 
 
-import cn.bx.entity.ProductCategory;
 import cn.bx.entity.ProductInfo;
 import cn.bx.enums.ProductStatusEnum;
 import cn.bx.util.CommonMap;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.User;
 import org.junit.Test;
 
 import org.junit.runner.RunWith;
@@ -16,8 +13,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

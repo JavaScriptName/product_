@@ -11,9 +11,11 @@ import java.util.List;
  */
 public interface ProductCategoryService {
 
-//    public List<ProductCategory> getcategoryType();
+    /**
+     * 从数据库查询类目
+     * @param categoryTypeList
+     * @return
+     */
+    public List<ProductCategory> getCategoryTypeList(List<Integer> categoryTypeList);
 
-
-
-//    public List<Integer> getcategoryTypeAll();
 }

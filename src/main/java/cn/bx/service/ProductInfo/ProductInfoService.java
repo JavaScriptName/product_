@@ -12,7 +12,7 @@ import java.util.List;
 public interface ProductInfoService {
 
     /**
-     * 查询所有上架数据
+     * 查询所在架商品
      * @return List<ProductCategory>
      */
     List<ProductInfo> findStatusAll();
